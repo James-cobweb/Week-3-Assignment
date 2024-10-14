@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+   }
+   .header .nav{
+       background: rgb(34, 65, 34);
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }
+   .header .nav .links{
+       display: flex;
+       align-items: center;
+       gap: 2rem;
+   }
+   .header .nav .logo img{
+    width: 50px;
+   }
+   .header .nav .links a{
+       color: white;
+       text-decoration: none;
+   }
+   .header .nav .button button{
+       border: 2px solid white;
+       padding: 5px 10px;
+       border-radius: 50px;
+       display: flex;
+       align-items: center;
+       gap: 10px;
+       cursor: pointer;
+       background-color: rgb(34, 65, 34);
+       color: white;
+   }
+   
+    .header .nav .button  img{
+       width: 20px;
+   }
+   .header .nav .button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+   }
+   .header .hero{
+    background-color: #074643;
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    padding-top: 4rem;
+    /* clip-path: circle(85.9% at 37% 1%); */
+   }
+   .header .hero .texts{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-left: 2rem;
+   }
+   .header .hero .texts .bold{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+   }
+   .bold #heading{
+    font-size: 1.5rem;
+    font-family: train one;
+    font-weight: 100;
+   }
+   .bold span{
+    font-weight: 700;
+    font-size: 2rem;
+   }
+   .bold small{
+    font-weight: 400;
+    font-size: 1rem;
+   }
+   .hero .texts .button{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+   }
+   .hero .texts .button #button{
+    background: black;
+    color: white;
+    border-radius: 40px;
+    padding: 8px 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    gap: 3px;
+   }
+   .hero .images{
+    position: relative;
+    z-index: 1000;
+    left: 8rem;
+    
+   }
+   .hero .images img{
+    width: 500px;
+    height: 500px;
+   }
+   .hero .images .texts{
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    padding: 5px 1rem;
+    position: absolute;
+    bottom:120px ;
+    right: 26rem;
+    
+   }
+   .hero .images .texts span{
+    font-size: 40px;
+    font-weight: 900;
+   }
+   .images .texts small{
+    font-weight: 800;
+    font-size: -7rem;
+    margin-top: -3rem;
+   }
+   .header .James  .text .button button{
+    background: black;
+    color: white;
+    padding: 5px 1rem;
+    border-radius: 10px;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 3rem;
+   }
+   .header .James{
+    gap: 22rem;
+    position: relative;
+    margin-left: 2rem;
+   }
+   .James .text .texts h2{
+    font-family: inter;
+   }
+   .header .James .button img{
+    height: 12px;
+   }
+   .James .button #man{
+    height: 22px;
+   }
+    .James .form{
+    display: flex;
+    gap:12rem;
+   }
+   .form .more{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    justify-items: space-around;
+   }
+   .form .much{
+    position: relative;
+    bottom: 8rem;
+   }
+   .form .more button{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 10rem 10px 3px;
+    margin: 5px;
+    font-weight: 600;
+   }
+   .form .more span{
+    margin-left: 3rem;
+    font-weight: 600; 
+   }
+   .form .much  .one span{
+    font-size:3rem;
+    font-weight: 500;
+    font-family: whisper;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+   }
+   .form .much .one #own{
+    margin-top: -2rem;
+    margin-left: 4rem;
+   }
+   .form .much .two{
+    border: 2px solid rgba(212, 129, 212, 0.788);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 5px;
+   }
+   .form .much .two .plus{
+    display: flex;
+    position: relative;
+    right: 30px;
+    top: 10px;
+   }
+   .form .much .two .minus{
+    display: flex;
+    position: relative;
+    right: 30px;
+    top: 10px;
+   }
+   .form .much .two img{
+    width: 120px;
+    height: 90px;
+   }
+   .form .much .two span{
+    font-family: inter;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 800;
+   }
+   .much .two  .dog small{
+    position: absolute;
+    left: 28px;
+    bottom: 22px;
+   }
+   .much .two  .goat span{
+    position: absolute;
+    left: 160px;
+    bottom: 40px;
+   }
+   .much .two .goat small{
+    position: absolute;
+    bottom: 22px;
+    right: 53px;
+   }
+   .much .two .bird small{
+    position: absolute;
+    bottom:22px;
+    left: 15px;
+   }
+   .much .two .frog span{
+    position: absolute;
+    left: 160px;
+   }
+   .much .two .frog small{
+    position: absolute;
+    right: 55px;
+    bottom: 25px;
+   }
+   
