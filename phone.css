@@ -1,0 +1,113 @@
+
+@media only screen and (max-width: 480px){
+    .header .menu{
+        display: block;
+        color: white;
+        background: darkcyan;
+    }
+    .menu .open{
+        position: relative;
+        left: 8px;
+        font-size: 2rem;
+    }
+    .menu .close{
+        position: relative;
+        left: 8px;
+        display: none;
+        font-size: 2rem;
+    }
+    .header .nav{
+        flex-direction: column;
+        justify-items: space-between;
+        gap: 20px;
+        display: none;
+    }
+   
+    .header .nav .links{
+        flex-direction: column;
+    }
+    .header .hero .texts .bold{
+        align-items: center;
+        position: relative;
+        right: 1.5rem;
+        bottom: 20px;
+    }
+    .hero .texts .bold #heading{
+        position: relative;
+        right: 2rem;
+    }
+    .texts .button{
+        position: relative;
+        right: 40px;
+        bottom: 20px;
+        display: flex;
+    }
+    .header .hero .images{
+        position: relative;
+        left: 2px;
+    }
+    .hero .images img{
+        height: 20rem;
+        width: 12rem;
+    }
+    .hero .images .texts{
+        background-color: white;
+        border-radius: 20px;
+        align-items: center;
+        padding: 5px 1rem;
+        position: absolute;
+        bottom:120px ;
+        right: 30rem;
+        
+       }
+     .hero .images .texts{
+        position: absolute;
+        bottom: 3rem;
+        right: 8rem;
+        width: 3rem;
+        font-size: 15px;
+    }
+    .hero .images .texts span{
+        font-size: 30px;
+        font-weight: 900;
+       }
+       .James .form{
+        display: flex;
+        flex-direction: column;
+        gap:12rem;
+        position: relative;
+        /* right: 1px; */
+       }
+       .header .James .text{
+        background: gray;
+        padding: 2rem;
+        padding-left: 1rem;
+        border-radius: 10px;
+        position: relative;
+        left: -15px;
+       }
+       .James .text .texts h2{
+        font-family: inter;
+       }
+       .form .much .two{
+        border: 2px solid rgba(212, 129, 212, 0.788);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 5rem;
+        padding: 10px;
+        justify-content: space-between;
+        gap: 5px;
+       }
+       .much .two .goat small{
+        position: absolute;
+        bottom: 22px;
+        right: 12rem;
+       }
+       .much .two .frog small{
+        position: absolute;
+        right: 12rem;
+        bottom: 25px;
+       }
+}

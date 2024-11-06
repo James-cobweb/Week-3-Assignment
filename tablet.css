@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px){
+    .hero .images{
+        position: relative;
+        left: 5rem;
+    }
+    .hero .images img{
+        width: 25rem;
+    }
+    .hero .images .texts{
+        background-color: white;
+        border-radius: 20px;
+        align-items: center;
+        padding: 5px 1rem;
+        position: absolute;
+        bottom:120px ;
+        right: 22rem;
+        
+       }
+    .James .form{
+        display: flex;
+        /* flex-direction: column; */
+        gap:12rem;
+        position: relative;
+        right: 4rem;
+       }
+       .James .form .much{
+        position: relative;
+        left: 3rem;
+       }
+}

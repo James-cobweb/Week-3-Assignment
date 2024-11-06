@@ -5,6 +5,12 @@ body{
     margin: 0;
     padding: 0;
    }
+   .header .menu{
+    display: block;
+    color: white;
+    background: green;
+    display: none;
+}
    .header .nav{
        background: rgb(34, 65, 34);
        display: flex;
@@ -95,7 +101,7 @@ body{
    .hero .images{
     position: relative;
     z-index: 1000;
-    left: 8rem;
+    left: 10rem;
     
    }
    .hero .images img{
@@ -113,7 +119,7 @@ body{
     
    }
    .hero .images .texts span{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
    }
    .images .texts small{
@@ -137,6 +143,10 @@ body{
     position: relative;
     margin-left: 2rem;
    }
+   .header .James .text{
+    position: relative;
+    left: 2rem;
+   }
    .James .text .texts h2{
     font-family: inter;
    }
@@ -155,15 +165,18 @@ body{
     flex-direction: column;
     margin-top: 3rem;
     justify-items: space-around;
+    position: relative;
+    left: 2rem;
    }
    .form .much{
     position: relative;
     bottom: 8rem;
+    left: 5rem;
    }
    .form .more button{
     border: 1px solid black;
     border-radius: 50px;
-    padding: 10px 10rem 10px 3px;
+    padding: 10px  12rem 10px 1rem;
     margin: 5px;
     font-weight: 600;
    }
@@ -171,7 +184,7 @@ body{
     margin-left: 3rem;
     font-weight: 600; 
    }
-   .form .much  .one span{
+    .form .much .one span{
     font-size:3rem;
     font-weight: 500;
     font-family: whisper;
@@ -189,7 +202,7 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 100px;
+    left: 10px;
     padding: 10px;
     justify-content: space-between;
     gap: 5px;
@@ -247,4 +260,3 @@ body{
     right: 55px;
     bottom: 25px;
    }
-   
